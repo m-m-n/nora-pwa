@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title><?= $site_name ?>勝手にPWA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="<?= $theme_color ?>">
+    <link href="./manifest.json" rel="manifest">
+    <link href="./icon.png" rel="icon" type="image/png">
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("./sw.js", {scope: "<?= $service_worker_scope ?>"});
+      }
+    </script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>インストールしてください</p>
+    </div>
+  </body>
+</html>

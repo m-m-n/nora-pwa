@@ -1,0 +1,10 @@
+{
+  "name": "<?= $name ?>",
+  "short_name": "<?= $short_name ?>",
+  "description": "<?= $name ?>のWebページのショートカット",
+  "icons": <?= $icons ?>,
+  "start_url": "<?= $start_url ?>",
+  "display": "standalone",
+  "theme_color": "<?= $theme_color ?>",
+  "background_color": "<?= $background_color ?>"
+}

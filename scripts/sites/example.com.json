@@ -1,0 +1,13 @@
+{
+  "domain": "example.com",
+  "redirect_to": "https://www.example.com/",
+  "site_name": "サンプル",
+  "short_name": "サンプル",
+  "icons": [{
+    "file_name": "icon.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }],
+  "theme_color": "#123456",
+  "background_color": "#fedcba"
+}
